@@ -1,24 +1,18 @@
-# Switch-Fightstick
-[![Thumbnail](https://i.imgur.com/cJLZUdhl.jpg)](https://twitter.com/ebith/status/954858876028907521)
-- [Xenoblade Chronicles 2](https://twitter.com/ebith/status/954858876028907521)
-- [Octopath Traveler](https://twitter.com/ebith/status/1079163336862818305)
+# clb4s
+[![Thumbnail](https://i.imgur.com/crap.jpg)](https://goatse.cx))
 
-## Requirement
-- ATMega32U4 Board or see [shinyquagsire23/Switch-Fightstick's README](https://github.com/shinyquagsire23/Switch-Fightstick/blob/master/README.md)
-- USB to serial adapter
-- USB micro-b cable * 2
+## Hardware
+- Arduino Uno, remove the atmega328p chip
+- FTDI TTYUSB interface
+- Remember the atmega16u2 is talking *to* the chip whose pins are exposed.
+ - So RX->RX, TX->TX
+- `make`
+- quick reset to enter programming mode
+- `dfu-programmer atmega16u2 erase`
+- `dfu-programmer atmega16u2 flash Joystick.hex`
+- `dfu-programmer reset`
+- Serial is recommended to stay at 9600 per LUFA?
 
-## Usage
+### Refs
 [NintendoSwitchをPCから操作する - おいら屋ファクトリー](https://blog.feelmy.net/control-nintendo-switch-from-computer/)(in Japanese)
 
-### On MacOS
-```sh
-brew install avr-dude osx-cross/avr/avr-gcc
-git clone --recursive https://github.com/ebith/Switch-Fightstick.git
-cd Switch-Fightstick
-make
-avrdude -pm32u4 -cavr109 -D -P$(ls /dev/tty.usbmodem*) -b57600 -Uflash:w:Joystick.hex # need reset
-
-pip3 install pyserial
-./example/rapid-fire-a-button.py /dev/tty.usbserial*
-```
