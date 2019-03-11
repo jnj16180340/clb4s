@@ -11,6 +11,8 @@ pandas = "*"
 pyserial = "*"
 opencv-python = "*"
 simplejson = "*"
+matplotlib = "*"
+v4l2 = "*"
 
 [requires]
 python_version = "3.7"
