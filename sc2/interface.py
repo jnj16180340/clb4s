@@ -12,7 +12,7 @@ DEFAULT_PORT='/dev/ttyUSB0'
 PORT = getenv('SER_CONTROLLER', DEFAULT_PORT)
 
 class BadButtonError(Exception):
-    print('Invalid controller command!')
+    pass
 
 class SwitchController():
     def __init__(self, port=PORT, boc=False):
@@ -68,12 +68,12 @@ class SwitchController():
     def __enter__(self):
         if self.boc:
             block_on_connect()
-        print(f'Opening {self.port}')
+        #print(f'Opening {self.port}')
         self.ser = Serial(self.port, self.baudrate)
         return self
 
     def __exit__(self, *args):
-        print(f'Closing {self.port}')
+        #print(f'Closing {self.port}')
         self.ser.close()
 
     @staticmethod
