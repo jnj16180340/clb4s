@@ -6,6 +6,8 @@ verify_ssl = true
 [dev-packages]
 jupyter = "*"
 pandas = "*"
+# For labeling. Heavy deps
+# labelme = "*"
 
 [packages]
 pyserial = "*"
