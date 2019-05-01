@@ -1,0 +1,177 @@
+Bayonetta
+Bowser
+Bowser Jr.
+Captain Falcon
+Charizard
+Chrom
+Cloud
+Corrin
+Daisy
+Dark Pit
+Dark Samus
+Diddy Kong
+Donkey Kong
+Dr. Mario
+Duck Hunt
+Falco
+Fox
+Mr. Game & Watch
+Ganondorf
+Greninja
+Ice Climbers
+Ike
+Incineroar
+Inkling
+Isabelle
+Jigglypuff
+Joker
+Ken
+King DeDeDe
+King K. Rool
+Kirby
+Link
+Little Mac
+Lucario
+Lucas
+Lucina
+Luigi
+Mario
+Marth
+Mega Man
+Meta Knight
+Mewtwo
+Ness
+Olimar
+Pac-Man
+Palutena
+Pichu
+Pikachu
+Piranha Plant
+Pit
+Peach
+Pokemon Trainer
+Richter
+Ridley
+ROB
+Robin
+Rosalina & Luma
+Ryu
+Samus
+Sheik
+Shulk
+Simon
+Snake
+Sonic
+Toon Link
+Villager
+Wario
+Wii Fit Trainer
+Wolf
+Young Link
+Yoshi
+Zelda
+Zero Suit Samus
+Mii Fighter
+Mii Brawler
+Mii Gunner
+Roy
+Iggy
+Lemmy
+Larry
+Morton
+Wendy
+Ludvig
+
+BAYONETTA
+BOWSER
+BOWSER JR.
+CAPTAIN FALCON
+CHARIZARD
+CHROM
+CLOUD
+CORRIN
+DAISY
+DARK PIT
+DARK SAMUS
+DIDDY KONG
+DONKEY KONG
+DR. MARIO
+DUCK HUNT
+FALCO
+FOX
+MR. GAME & WATCH
+GANONDORF
+GRENINJA
+ICE CLIMBERS
+IKE
+INCINEROAR
+INKLING
+ISABELLE
+JIGGLYPUFF
+JOKER
+KEN
+KING DEDEDE
+KING K. ROOL
+KIRBY
+LINK
+LITTLE MAC
+LUCARIO
+LUCAS
+LUCINA
+LUIGI
+MARIO
+MARTH
+MEGA MAN
+META KNIGHT
+MEWTWO
+NESS
+OLIMAR
+PAC-MAN
+PALUTENA
+PICHU
+PIKACHU
+PIRANHA PLANT
+PIT
+PEACH
+POKEMON TRAINER
+RICHTER
+RIDLEY
+ROB
+ROBIN
+ROSALINA & LUMA
+RYU
+SAMUS
+SHEIK
+SHULK
+SIMON
+SNAKE
+SONIC
+TOON LINK
+VILLAGER
+WARIO
+WII FIT TRAINER
+WOLF
+YOUNG LINK
+YOSHI
+ZELDA
+ZERO SUIT SAMUS
+MII FIGHTER
+MII BRAWLER
+MII GUNNER
+ROY
+IGGY
+LEMMY
+LARRY
+MORTON
+WENDY
+LUDVIG
+
++\d\*
+-\d\*
+\*\d%
+
+\d
+\d\d
+\d\d\d
+\d\d\d\d
+\d\d\d\d\d
