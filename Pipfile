@@ -16,6 +16,7 @@ simplejson = "*"
 matplotlib = "*"
 v4l2 = "*"
 pytesseract = "*"
+more-itertools = "*"
 
 [requires]
 python_version = "3.7"
